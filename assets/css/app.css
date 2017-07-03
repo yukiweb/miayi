@@ -1,0 +1,200 @@
+/* Write your styles */
+/*头部导航开始*/
+/*.am-header{
+    background-color: #107E4E;
+}
+.am-container {
+    overflow: hidden;
+}
+.am-container h1 {
+    display: inline-block;
+}
+.am-container-p {
+    display: inline-block;
+    margin-bottom: 0;
+}
+.am-container-p img {
+    display: block;
+    width: 133px;
+    height: 44px;
+}
+.am-nav {
+    margin-top: 0;
+    float: right;
+}
+.am-nav li {
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+.am-nav>li+li {
+     margin-top: 0;
+}
+.am-nav a {
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+.am-nav a:hover {
+    background-color: #0D6740;
+}*/
+
+.am-topbar {
+    margin-bottom: 0;
+    background-color: #107E4E;
+    border: none;
+}
+.am-topbar a {
+    color: #fff;
+}
+.am-topbar-nav>li.am-active>a,.am-topbar-nav>li.am-active>a:focus, .am-topbar-nav>li.am-active>a:hover {
+   color: #fff;
+}
+.am-topbar-nav>li.am-active {
+    background-color: #0E7146;
+}
+.am-topbar-nav>li>a:hover {
+    background-color: #0E7146;
+}
+
+.am-topbar-brand span {
+    background-color: #dd514c;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 2px 3px;
+    color: #fff;
+    line-height:inherit;
+}
+.am-topbar-brand p {
+    width: 153px;
+    height: 48px;12223456789
+    background: url(../../libs/css/logo_top.png)no-repeat left center;
+    background-size: 133px 44px;
+    margin-bottom: 0;
+}
+.am-topbar-nav>li.am-active>a:after {
+    border-bottom-color: #35AE78;
+}
+.am-topbar-nav>li>a:after {
+    bottom: 0px;
+    border-bottom-color: #107E4E;
+}
+.am-topbar-nav>li>a:focus{
+    background-color: #0E7146;
+}
+.am-topbar-nav>li>a:hover a::after {
+    background-color: #0E7146;
+}
+.am-container {
+   max-width: 1068px;
+}
+/*.am-topbar .am-text-ir {
+    display: block;
+    margin-right: 10px;
+    height: 50px;
+    width: 153px;
+    background:#0D6740 url(../../libs/css/logo_top.png) no-repeat left center;
+    background-size: 133px 44px;
+}*/
+/*头部导航结束*/
+/*main开始*/
+.am-main {
+    background: #20a76c url(../../libs/css/table_bgi.png) repeat;
+    text-align: center;
+}
+.amz-hero-headings{
+    color: #fff;
+    padding: 20px;
+}
+.amz-hero-headings h1{
+    /*font-size: 56px;
+    font-weight: 580;*/
+    font-weight: 600;
+    font-size: 218%;
+    margin: 23px 0;
+}
+.amz-hero-headings h2{
+    /*font-size: 34px;*/
+    font-size: 168%;
+    font-weight: 500;
+    margin: 0;
+}
+.yellow {
+    color: yellow;
+}
+.am-content-left {
+    float: left;
+}
+.am-content-left img  {
+    width:100%;
+}
+.am-content-right {
+    float: right;
+}
+.am-content-right img {
+    width:100%;
+}
+[class*=am-u-]{
+    padding-left: 0;
+    padding-right: 0;
+}
+.am-content {
+    overflow: hidden;
+}
+/*main结束*/
+/*底部开始*/
+.footer {
+    background-color: #107E4E;
+}
+.footer .amg {
+    overflow: hidden;
+}
+/*.footer .am-container {
+    position: relative;
+}*/
+.am-u-sm-8 div {
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.footer p {
+    color: #fff;
+    margin: 10px 0;
+}
+.am-footer-list {
+    overflow: hidden;
+    margin-top: 10px;
+}
+.am-footer-list li{
+    float: right;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    list-style: none;
+    margin-right: 10px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 42px;
+}
+.am-footer-list li span{
+    color: #107E4E;
+}
+.am-phone {
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    text-align: center;
+    line-height: 42px;
+}
+.am-icon-phone {
+    color: #fff;
+    transition: all .5s;
+}
+.am-icon-phone:hover {
+    transform: rotateZ(720deg);
+}
+/*底部结束*/
